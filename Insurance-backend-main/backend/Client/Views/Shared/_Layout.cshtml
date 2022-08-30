@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Insurance</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet" href="~/ADplugins//fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="~/ADplugins//overlayScrollbars/css/OverlayScrollbars.min.css">
+    <link rel="stylesheet" href="~/ADdist/css/adminlte.min.css">
+</head>
+<body>
+    @RenderBody()
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/ADplugins//jquery/jquery.min.js"></script>
+    <script src="~/ADplugins//bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/ADplugins//overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <script src="~/ADdist/js/adminlte.js"></script>
+    <script src="~/ADplugins//jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="~/ADplugins//raphael/raphael.min.js"></script>
+    <script src="~/ADplugins//jquery-mapael/jquery.mapael.min.js"></script>
+    <script src="~/ADplugins//jquery-mapael/maps/usa_states.min.js"></script>
+    <script src="~/ADplugins//chart.js/Chart.min.js"></script>
+    <script src="~/ADdist/js/demo.js"></script>
+    <script src="~/ADdist/js/pages/dashboard2.js"></script>
+
+    <!--____Notify____-->
+    @await Component.InvokeAsync("Notyf")
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

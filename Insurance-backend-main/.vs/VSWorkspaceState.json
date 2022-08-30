@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\backend\\Client",
+    "\\backend\\Client\\Areas",
+    "\\backend\\Client\\Areas\\Admin",
+    "\\backend\\Client\\Areas\\Admin\\Controllers",
+    "\\backend\\Client\\Controllers",
+    "\\backend\\Client\\Views",
+    "\\backend\\Client\\Views\\Admin",
+    "\\backend\\Client\\Views\\Login"
+  ],
+  "SelectedNode": "\\backend\\Client\\Controllers\\HomeController.cs",
+  "PreviewInSolutionExplorer": false
+}

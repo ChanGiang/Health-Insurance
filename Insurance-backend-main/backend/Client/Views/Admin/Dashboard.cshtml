@@ -1,0 +1,73 @@
+﻿<div class="wrapper">
+    <partial name="../Shared/_NavbarAdmin.cshtml" />
+    <div class="content-wrapper">
+        <div class="content-header">
+            <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col-sm-6">
+                        <h1 class="m-0">Health Insurance</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    @{
+                        var list = @ViewData["List"];
+                        <div class="col-lg-3 col-6">
+                            <div class="small-box bg-info">
+                                <div class="inner">
+                                    <h3>@list</h3>
+
+                                    <p>Employees</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-bag"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="small-box bg-success">
+                                <div class="inner">
+                                    <h3>50</h3>
+                                    <p>Hospital</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-stats-bars"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="small-box bg-warning">
+                                <div class="inner">
+                                    <h3>20</h3>
+                                    <p>Company</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-person-add"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="small-box bg-danger">
+                                <div class="inner">
+                                    <h3>35</h3>
+                                    <p>Policy</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-pie-graph"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container ggmaps">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d259.52352832995325!2d106.66613267677197!3d10.786680344923615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed2392c44df%3A0xd2ecb62e0d050fe9!2sFPT-Aptech%20Computer%20Education%20HCM!5e0!3m2!1sen!2s!4v1645419854269!5m2!1sen!2s"
+                                    width="950" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    }
+                </div>
+
+            </div>
+        </section>
+    </div>
+</div>
